@@ -1,0 +1,12 @@
+/* Aria Map: lightweight local slippy-map UI. Map tiles still come from OpenStreetMap. */
+.aria-map{position:relative;overflow:hidden;background:#e5e8df;touch-action:none;user-select:none;-webkit-user-select:none;font-family:inherit}
+.aria-map-pane,.aria-map-tiles,.aria-map-markers,.aria-map-overlay{position:absolute;inset:0}
+.aria-map-tiles{overflow:hidden;z-index:1}.aria-map-tile{position:absolute;width:256px;height:256px;max-width:none!important;pointer-events:none}
+.aria-map-overlay{z-index:2;pointer-events:none;width:100%;height:100%}.aria-map-markers{z-index:3;pointer-events:none}
+.aria-map-marker{position:absolute;width:28px;height:38px;transform:translate(-50%,-100%);pointer-events:auto;cursor:pointer;filter:drop-shadow(0 2px 2px rgba(0,0,0,.22))}
+.aria-map-marker::before{content:"";position:absolute;left:4px;top:1px;width:20px;height:20px;border-radius:50% 50% 50% 0;background:#293222;border:3px solid #fff;transform:rotate(-45deg);box-sizing:border-box}
+.aria-map-marker::after{content:"";position:absolute;left:11px;top:8px;width:6px;height:6px;border-radius:50%;background:#c9e84d}
+.aria-map-marker[aria-grabbed="true"]{cursor:grabbing;transform:translate(-50%,-100%) scale(1.08)}
+.aria-map-controls{position:absolute;z-index:5;top:10px;left:10px;display:grid;box-shadow:0 1px 5px rgba(0,0,0,.25);border-radius:8px;overflow:hidden}
+.aria-map-controls button{width:34px;height:34px;border:0;background:#fff;color:#20251d;font:700 20px/1 sans-serif;cursor:pointer}.aria-map-controls button+button{border-top:1px solid #ddd}
+.aria-map-attribution{position:absolute;z-index:5;left:0;bottom:0;padding:2px 5px;background:rgba(255,255,255,.82);font-size:10px;color:#555;direction:ltr}.aria-map-attribution a{color:inherit}

@@ -1,0 +1,3051 @@
+{
+  "settings": {
+    "businessName": "کافی شاپ آریا",
+    "city": "قوچان",
+    "province": "خراسان رضوی",
+    "country": "ایران",
+    "currency": "تومان",
+    "phone": "",
+    "address": "قوچان، خیابان امام خمینی، نبش خیابان سنایی، کافی شاپ آریا",
+    "open": true,
+    "preparationMinutes": 25,
+    "deliveryFee": 35000,
+    "freeDeliveryOver": 0,
+    "closedForDayKey": null,
+    "closedReasonCode": null,
+    "closedReason": null,
+    "deliveryTravelMinutes": 15,
+    "minimumOrder": 0,
+    "pickupEnabled": true,
+    "deliveryEnabled": true,
+    "instagramUrl": "https://www.instagram.com/arya_coffe_shop/",
+    "workingHours": "هر روز ۸:۰۰ تا ۲۴:۰۰",
+    "menuNotice": "",
+    "aboutText": "آریا؛ از سال ۱۳۸۵ در قوچان، همراه لحظه‌های شیرین شماست.\n\nما در آریا با هدف ارائه‌ی تجربه‌ای باکیفیت، دلنشین و مطمئن شکل گرفتیم. طی این سال‌ها تلاش کرده‌ایم با پایبندی به بهداشت، کیفیت و انتخاب مواد اولیه مناسب، محیطی شایسته برای خانواده‌ها و دوستداران طعم‌های اصیل فراهم کنیم.\n\nاز آبمیوه‌های تازه و بستنی‌های خوش‌طعم گرفته تا انواع نوشیدنی‌های گرم و قهوه، هر محصول در آریا با دقت و وسواس آماده می‌شود؛ چون برای ما کیفیت فقط یک شعار نیست، بلکه دستور کار ماست.\n\nما به همراهی شما در این سال‌ها افتخار می‌کنیم و همچنان تلاش می‌کنیم آریا جایی باشد که خانواده‌ها با خیال راحت برای یک تجربه خوش‌طعم و خاطره‌انگیز به آن برگردند.\n\nآریا؛ کیفیت، بهداشت و طعمی که ماندگار می‌شود.",
+    "sitePhotos": {
+      "heroMain": "/uploads/site-heroMain-default.webp",
+      "heroSecond": "/uploads/site-heroSecond-default.webp",
+      "heroThird": "/uploads/site-heroThird-default.webp",
+      "aboutVenue": "/uploads/site-aboutVenue-default.webp"
+    },
+    "deliveryLocationAddress": "قوچان، خیابان امام خمینی، نبش خیابان سنایی، کافی شاپ آریا",
+    "scheduleEnabled": true,
+    "scheduleStart": "08:00",
+    "scheduleEnd": "24:00",
+    "deliveryCenterLat": 37.106,
+    "deliveryCenterLng": 58.50955,
+    "deliveryRadiusKm": 6,
+    "phones": [],
+    "forceOpenForDayKey": "",
+    "deliveryZones": [
+      {
+        "maxKm": 3,
+        "fee": 30000
+      },
+      {
+        "maxKm": 6,
+        "fee": 35000
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "cat-juice",
+      "name": "آبمیوه طبیعی",
+      "sort": 1,
+      "active": true
+    },
+    {
+      "id": "cat-juice-mix",
+      "name": "آبمیوه ترکیبی",
+      "sort": 2,
+      "active": true
+    },
+    {
+      "id": "cat-milkshake",
+      "name": "شیرموز و ترکیبی",
+      "sort": 3,
+      "active": true
+    },
+    {
+      "id": "cat-shake",
+      "name": "شیک",
+      "sort": 4,
+      "active": true
+    },
+    {
+      "id": "cat-icepack",
+      "name": "آیس پک",
+      "sort": 5,
+      "active": true
+    },
+    {
+      "id": "cat-icecream",
+      "name": "بستنی",
+      "sort": 6,
+      "active": true
+    },
+    {
+      "id": "cat-special-icecream",
+      "name": "بستنی مخصوص",
+      "sort": 7,
+      "active": true
+    },
+    {
+      "id": "cat-majoon",
+      "name": "معجون",
+      "sort": 8,
+      "active": true
+    },
+    {
+      "id": "cat-coffee",
+      "name": "قهوه و نوشیدنی گرم",
+      "sort": 10,
+      "active": true
+    },
+    {
+      "id": "cat-dessert",
+      "name": "دسر و کیک",
+      "sort": 11,
+      "active": true
+    },
+    {
+      "id": "cat-corn",
+      "name": "ذرت و تنقلات",
+      "sort": 12,
+      "active": true
+    },
+    {
+      "id": "cat-special",
+      "name": "پیشنهادهای ویژه",
+      "sort": 13,
+      "active": true
+    },
+    {
+      "id": "cat-syrup",
+      "name": "شربت",
+      "sort": 9,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prd-banana-milk",
+      "categoryId": "cat-milkshake",
+      "name": "شیرموز",
+      "description": "شیر و موز تازه؛ آماده شخصی‌سازی در نسخه بعدی.",
+      "price": 110000,
+      "available": true,
+      "popular": true,
+      "new": true,
+      "tags": [
+        "موز",
+        "شیر"
+      ],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-carrot",
+      "categoryId": "cat-juice",
+      "name": "آب هویج",
+      "description": "آب هویج تازه و خنک.",
+      "price": 170000,
+      "available": true,
+      "popular": true,
+      "new": true,
+      "tags": [
+        "هویج",
+        "طبیعی"
+      ],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 85000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 255000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-icepack",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک",
+      "description": "آیس پک خنک و قابل شخصی‌سازی.",
+      "price": 180000,
+      "available": true,
+      "popular": true,
+      "new": true,
+      "tags": [
+        "آیس پک"
+      ],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-nutella-shake",
+      "categoryId": "cat-shake",
+      "name": "شیک نوتلا",
+      "description": "شیک شکلاتی با نوتلا.",
+      "price": 420000,
+      "available": true,
+      "popular": true,
+      "new": true,
+      "tags": [
+        "نوتلا",
+        "شکلات"
+      ],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-traditional-icecream",
+      "categoryId": "cat-icecream",
+      "name": "بستنی سنتی",
+      "description": "بستنی سنتی ایرانی با عطر زعفران و گلاب.",
+      "price": 120000,
+      "available": true,
+      "popular": true,
+      "new": false,
+      "tags": [
+        "سنتی",
+        "زعفران"
+      ],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-dec14f43381d",
+      "categoryId": "cat-juice",
+      "name": "آب سیب",
+      "description": "",
+      "price": 160000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 80000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 240000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-057807271846",
+      "categoryId": "cat-juice",
+      "name": "آب پرتقال",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 85000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 255000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-fba948a05b1d",
+      "categoryId": "cat-juice",
+      "name": "آب انبه",
+      "description": "",
+      "price": 210000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 105000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 315000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-19ef8fee63fa",
+      "categoryId": "cat-juice",
+      "name": "آب انار",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 85000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 255000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-5e4f8cf22451",
+      "categoryId": "cat-juice",
+      "name": "آب آلبالو",
+      "description": "",
+      "price": 140000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 70000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 210000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-ecf32e850d0c",
+      "categoryId": "cat-juice",
+      "name": "آب زرشک",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 50000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 150000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-b76f8be7ff3c",
+      "categoryId": "cat-juice",
+      "name": "آب طالبی",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 45000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 135000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-3e81d8911695",
+      "categoryId": "cat-juice",
+      "name": "آب شاتوت",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 45000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 135000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-8664e5e2c2a8",
+      "categoryId": "cat-juice",
+      "name": "آب آناناس",
+      "description": "",
+      "price": 480000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 240000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 720000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-4d394be1c6a9",
+      "categoryId": "cat-juice",
+      "name": "آب کیوی",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 50000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 150000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-0bf3fe128bce",
+      "categoryId": "cat-juice-mix",
+      "name": "سیب هویج",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 85000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 255000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-b0ffbf57256c",
+      "categoryId": "cat-juice-mix",
+      "name": "سیب انبه",
+      "description": "",
+      "price": 190000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 95000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 285000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-445658becf69",
+      "categoryId": "cat-juice-mix",
+      "name": "سیب کرفس",
+      "description": "",
+      "price": 140000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 70000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 210000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-be753f7bf2d8",
+      "categoryId": "cat-juice-mix",
+      "name": "سیب پرتقال",
+      "description": "",
+      "price": 160000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 80000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 240000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-cc9c4cf7c488",
+      "categoryId": "cat-juice-mix",
+      "name": "هویج کرفس",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 50000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 150000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-d87d05cf6cd4",
+      "categoryId": "cat-juice-mix",
+      "name": "هویج انبه",
+      "description": "",
+      "price": 180000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 90000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 270000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-d8115c5bef4b",
+      "categoryId": "cat-juice-mix",
+      "name": "انار آلبالو",
+      "description": "",
+      "price": 160000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 80000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 240000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-41878db39ccc",
+      "categoryId": "cat-juice-mix",
+      "name": "انار زرشک",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 50000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 150000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-961bffee2013",
+      "categoryId": "cat-juice-mix",
+      "name": "انار شاتوت",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 75000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 225000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-98e551542505",
+      "categoryId": "cat-juice-mix",
+      "name": "شاتوت انبه",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 85000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 255000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-3bf6866c7bca",
+      "categoryId": "cat-juice-mix",
+      "name": "انبه طالبی",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 75000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 225000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-186d4829c1eb",
+      "categoryId": "cat-juice-mix",
+      "name": "پرتقال کرفس",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 50000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 150000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-6559f41f9493",
+      "categoryId": "cat-juice-mix",
+      "name": "آلبالو شاتوت",
+      "description": "",
+      "price": 140000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 70000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 210000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-4e611dc250af",
+      "categoryId": "cat-juice-mix",
+      "name": "پرتقال انبه",
+      "description": "",
+      "price": 180000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 90000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 270000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-c4a105311f8c",
+      "categoryId": "cat-milkshake",
+      "name": "شیر نارگیل",
+      "description": "",
+      "price": 110000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-6a0e9ebc024b",
+      "categoryId": "cat-milkshake",
+      "name": "شیر خرما",
+      "description": "",
+      "price": 110000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-d9f20469a509",
+      "categoryId": "cat-milkshake",
+      "name": "شیر سویا",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-027c5e541e6a",
+      "categoryId": "cat-milkshake",
+      "name": "شیر انبه",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-ee23c996fc35",
+      "categoryId": "cat-milkshake",
+      "name": "شیر پسته",
+      "description": "",
+      "price": 230000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-5609db378b74",
+      "categoryId": "cat-milkshake",
+      "name": "شیر شاتوت",
+      "description": "",
+      "price": 120000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-c7a5b77c3a10",
+      "categoryId": "cat-milkshake",
+      "name": "شیرموز شکلاتی",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-cc65e56966b5",
+      "categoryId": "cat-milkshake",
+      "name": "شیر موز خرما",
+      "description": "",
+      "price": 120000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-e38f558993d4",
+      "categoryId": "cat-milkshake",
+      "name": "شیر موز نارگیل",
+      "description": "",
+      "price": 120000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-76a0c99bca49",
+      "categoryId": "cat-milkshake",
+      "name": "شیر موز انبه",
+      "description": "",
+      "price": 160000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-23d14dfad1d2",
+      "categoryId": "cat-milkshake",
+      "name": "شیر موز پسته",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-2dbfdf2ac025",
+      "categoryId": "cat-milkshake",
+      "name": "شیر موز هویج",
+      "description": "",
+      "price": 140000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-721e72716e2a",
+      "categoryId": "cat-milkshake",
+      "name": "شیرموز طلایی",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-133d48c4c37c",
+      "categoryId": "cat-milkshake",
+      "name": "شیر نارگیل خرما",
+      "description": "",
+      "price": 120000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-80ae2ee23a2f",
+      "categoryId": "cat-milkshake",
+      "name": "شیر نارگیل انبه",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-f5afdb20dc71",
+      "categoryId": "cat-milkshake",
+      "name": "شیر خرما انبه",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-4b16d7527a8d",
+      "categoryId": "cat-milkshake",
+      "name": "شیر پسته انبه",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-cbd8e16b3688",
+      "categoryId": "cat-milkshake",
+      "name": "شیر خرما پسته",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-cbc24d593ad4",
+      "categoryId": "cat-milkshake",
+      "name": "شیر نارگیل پسته",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-1e6460b5a204",
+      "categoryId": "cat-milkshake",
+      "name": "شیک بیسکویت (لوتوس)",
+      "description": "",
+      "price": 270000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 60000,
+          "active": true,
+          "allowedVolumeIds": []
+        }
+      ]
+    },
+    {
+      "id": "prd-dc0bdb3479d0",
+      "categoryId": "cat-shake",
+      "name": "کافه کلاسیک",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-746336bbcf0c",
+      "categoryId": "cat-shake",
+      "name": "شکلات کلاسیک",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-31bbbbdd47b6",
+      "categoryId": "cat-shake",
+      "name": "شیک موز",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-4b7fcd833d8f",
+      "categoryId": "cat-shake",
+      "name": "شیک انبه",
+      "description": "",
+      "price": 230000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-54fa18f93eaf",
+      "categoryId": "cat-shake",
+      "name": "شیک شکلات",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-d241d1fb76cb",
+      "categoryId": "cat-shake",
+      "name": "شیک شاتوت",
+      "description": "",
+      "price": 230000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-c57436c6e51d",
+      "categoryId": "cat-shake",
+      "name": "شیک نسکافه",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-d0210ef8963e",
+      "categoryId": "cat-shake",
+      "name": "شیک توت فرنگی",
+      "description": "",
+      "price": 330000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-f9e5b7941c4b",
+      "categoryId": "cat-shake",
+      "name": "آووکادو",
+      "description": "",
+      "price": 440000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-b9383e7cdf78",
+      "categoryId": "cat-shake",
+      "name": "آیس لاته",
+      "description": "",
+      "price": 140000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-f672d9e8e097",
+      "categoryId": "cat-shake",
+      "name": "آیس موکا",
+      "description": "",
+      "price": 180000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-170bb9fd47f0",
+      "categoryId": "cat-special",
+      "name": "شیک بادام زمینی",
+      "description": "",
+      "price": 440000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-195e11833e69",
+      "categoryId": "cat-special-icecream",
+      "name": "شیک پسته",
+      "description": "",
+      "price": 440000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-523552c3f286",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک شکلات",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-833dbe01e01a",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک نسکافه",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-83380a9a17f9",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک موز",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-ecc291dd6618",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک انبه",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-72348fc5d349",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک شاتوت",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-6adc7fb420b6",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک توت فرنگی",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-3b0df02fbc1b",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک آناناس",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-93404b91bc95",
+      "categoryId": "cat-icepack",
+      "name": "آیس پک طلایی",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-9bf94cb213a5",
+      "categoryId": "cat-icecream",
+      "name": "بستنی وانیلی",
+      "description": "",
+      "price": 60000,
+      "available": true,
+      "popular": true,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-58737f52abdd",
+      "categoryId": "cat-icecream",
+      "name": "بستنی خامه‌ای",
+      "description": "",
+      "price": 80000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-96420e919f85",
+      "categoryId": "cat-icecream",
+      "name": "بستنی شکلاتی",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-c76eac7efd76",
+      "categoryId": "cat-icecream",
+      "name": "بستنی میوه‌ای",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-4f3da42264bf",
+      "categoryId": "cat-icecream",
+      "name": "کیک بستنی",
+      "description": "",
+      "price": 120000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-7c79fb8148ef",
+      "categoryId": "cat-icecream",
+      "name": "بستنی قیفی",
+      "description": "",
+      "price": 50000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-17205ffc1182",
+      "categoryId": "cat-icecream",
+      "name": "فالوده بستنی",
+      "description": "",
+      "price": 125000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-6c24f6aa4d6e",
+      "categoryId": "cat-icecream",
+      "name": "فالوده",
+      "description": "",
+      "price": 85000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-83df2a61b42c",
+      "categoryId": "cat-special-icecream",
+      "name": "بستنی مخصوص",
+      "description": "",
+      "price": 180000,
+      "available": true,
+      "popular": true,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-8fc303afe581",
+      "categoryId": "cat-special-icecream",
+      "name": "بستنی میوه‌ای مخصوص",
+      "description": "",
+      "price": 320000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-219b4c7b82e2",
+      "categoryId": "cat-special-icecream",
+      "name": "شیر موز مخصوص",
+      "description": "",
+      "price": 210000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-54cdd8ae2f56",
+      "categoryId": "cat-special-icecream",
+      "name": "شیر خرما مخصوص",
+      "description": "",
+      "price": 210000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-ce431177c8a2",
+      "categoryId": "cat-special-icecream",
+      "name": "شیر نارگیل مخصوص",
+      "description": "",
+      "price": 210000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-d4d22606dd04",
+      "categoryId": "cat-special-icecream",
+      "name": "شیر شاتوت مخصوص",
+      "description": "",
+      "price": 320000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-8e35e4e96290",
+      "categoryId": "cat-special-icecream",
+      "name": "شیر موز شکلاتی مخصوص",
+      "description": "",
+      "price": 320000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-2e50fed151df",
+      "categoryId": "cat-special-icecream",
+      "name": "کیک بستنی مخصوص",
+      "description": "",
+      "price": 240000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-dae7070d43cf",
+      "categoryId": "cat-majoon",
+      "name": "معجون افلاطون",
+      "description": "",
+      "price": 350000,
+      "available": true,
+      "popular": true,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-b2b1564cf332",
+      "categoryId": "cat-majoon",
+      "name": "معجون پسته",
+      "description": "",
+      "price": 350000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-4d0bb1fe755f",
+      "categoryId": "cat-majoon",
+      "name": "معجون انبه",
+      "description": "",
+      "price": 350000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-2cfa132481c7",
+      "categoryId": "cat-majoon",
+      "name": "معجون انبه پسته",
+      "description": "",
+      "price": 350000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-b2c7f3c74b6f",
+      "categoryId": "cat-majoon",
+      "name": "معجون کاسه‌ای",
+      "description": "",
+      "price": 650000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-44577621ac2f",
+      "categoryId": "cat-majoon",
+      "name": "معجون کیلویی",
+      "description": "",
+      "price": 900000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-2d581a355347",
+      "categoryId": "cat-coffee",
+      "name": "چای ترک",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-611651899196",
+      "categoryId": "cat-coffee",
+      "name": "اسپرسو",
+      "description": "",
+      "price": 80000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-6d85b3c4f9f5",
+      "categoryId": "cat-coffee",
+      "name": "دبل اسپرسو",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-bfcf2ba8c243",
+      "categoryId": "cat-coffee",
+      "name": "لاته",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-520a45b4d96c",
+      "categoryId": "cat-coffee",
+      "name": "کاپوچینو",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-22b5df731272",
+      "categoryId": "cat-coffee",
+      "name": "موکا",
+      "description": "",
+      "price": 190000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-0be5c8ba4d9f",
+      "categoryId": "cat-coffee",
+      "name": "شکلات داغ",
+      "description": "",
+      "price": 150000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-229ce41116fb",
+      "categoryId": "cat-coffee",
+      "name": "شیرکاکائو",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-bba4c6c1789c",
+      "categoryId": "cat-coffee",
+      "name": "چای ماسالا",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-b16d923f3304",
+      "categoryId": "cat-coffee",
+      "name": "شیر نسکافه",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-de4e0a019d17",
+      "categoryId": "cat-coffee",
+      "name": "دمنوش",
+      "description": "",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-966b24b0807d",
+      "categoryId": "cat-dessert",
+      "name": "گلاسه زعفرانی",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-a8e3792ea643",
+      "categoryId": "cat-dessert",
+      "name": "فرنچ داغ",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-0f80154a2a73",
+      "categoryId": "cat-dessert",
+      "name": "تیرامیسو",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-5ce8b2bc2278",
+      "categoryId": "cat-dessert",
+      "name": "چیزکیک",
+      "description": "",
+      "price": 85000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-2ef4e2f702a1",
+      "categoryId": "cat-dessert",
+      "name": "کیک شکلاتی",
+      "description": "",
+      "price": 65000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-d6c89ab85656",
+      "categoryId": "cat-dessert",
+      "name": "کیک سیب",
+      "description": "",
+      "price": 65000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-04eea8670bc2",
+      "categoryId": "cat-dessert",
+      "name": "کیک هویج",
+      "description": "",
+      "price": 65000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-76ed5aaac8e4",
+      "categoryId": "cat-dessert",
+      "name": "رولت",
+      "description": "",
+      "price": 75000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-0b93087ce555",
+      "categoryId": "cat-dessert",
+      "name": "کیک دسر",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-271c4b8eedce",
+      "categoryId": "cat-dessert",
+      "name": "موچی",
+      "description": "",
+      "price": 95000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-bc5ca6d2fe76",
+      "categoryId": "cat-dessert",
+      "name": "دونات شکلاتی",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-861f1c7a89cb",
+      "categoryId": "cat-corn",
+      "name": "ذرت کوچک",
+      "description": "",
+      "price": 170000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-95cea99177fe",
+      "categoryId": "cat-corn",
+      "name": "ذرت بزرگ",
+      "description": "",
+      "price": 220000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-3ac9537772fe",
+      "categoryId": "cat-corn",
+      "name": "چاکلت پاست",
+      "description": "",
+      "price": 100000,
+      "available": true,
+      "popular": false,
+      "new": false,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-custom-120",
+      "categoryId": "cat-juice",
+      "name": "آب کرفس",
+      "description": "آب کرفس؛ تازه و آماده سفارش.",
+      "price": 105000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [
+        "طبیعی"
+      ],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 52000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 158000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-custom-121",
+      "categoryId": "cat-juice",
+      "name": "آب زغال اخته",
+      "description": "آب زغال اخته؛ تازه و آماده سفارش.",
+      "price": 110000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [
+        "طبیعی"
+      ],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 55000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 165000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-custom-122",
+      "categoryId": "cat-juice",
+      "name": "آب زردآلو",
+      "description": "آب زردآلو؛ تازه و آماده سفارش.",
+      "price": 110000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [
+        "طبیعی"
+      ],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 55000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 165000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-custom-123",
+      "categoryId": "cat-juice",
+      "name": "آب تمشک",
+      "description": "آب تمشک؛ تازه و آماده سفارش.",
+      "price": 110000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [
+        "طبیعی"
+      ],
+      "options": [
+        {
+          "id": "opt-volume",
+          "name": "حجم",
+          "type": "single",
+          "required": true,
+          "values": [
+            {
+              "id": "vol-300",
+              "name": "۳۰۰ میلی‌لیتر",
+              "priceDelta": 0,
+              "active": true
+            },
+            {
+              "id": "vol-500",
+              "name": "۵۰۰ میلی‌لیتر",
+              "priceDelta": 55000,
+              "active": true
+            },
+            {
+              "id": "vol-1000",
+              "name": "۱ لیتر",
+              "priceDelta": 165000,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "image": null,
+      "addOns": [
+        {
+          "id": "addon-icecream",
+          "name": "افزودن بستنی",
+          "priceDelta": 40000,
+          "active": true,
+          "allowedVolumeIds": [
+            "vol-300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prd-custom-126",
+      "categoryId": "cat-coffee",
+      "name": "چای کرک",
+      "description": "چای کرک؛ تازه و آماده سفارش.",
+      "price": 90000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [],
+      "options": [],
+      "image": null
+    },
+    {
+      "id": "prd-custom-127",
+      "categoryId": "cat-syrup",
+      "name": "شربت خاکشیر",
+      "description": "شربت خاکشیر؛ تازه و آماده سفارش.",
+      "price": 50000,
+      "available": true,
+      "popular": false,
+      "new": true,
+      "tags": [
+        "شربت",
+        "خاکشیر"
+      ],
+      "options": [],
+      "image": null
+    }
+  ],
+  "orders": [],
+  "coupons": [],
+  "notifications": []
+}
